@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onConvert(View view){
+        Spinner firstUnit = findViewById(R.id.firstUnit);
+        Spinner secondUnit = findViewById(R.id.secondUnit);
+        EditText firstNum = findViewById(R.id.firstNum);
+        EditText secondNum = findViewById(R.id.secondNum);
 
     }
 }
